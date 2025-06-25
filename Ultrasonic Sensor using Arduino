@@ -1,0 +1,23 @@
+An ultrasonic sensor, when paired with an Arduino, becomes a powerful tool for measuring distance using sound waves. Here's a quick breakdown of how it works and what it does:
+
+How It Works: An ultrasonic sensor (like the popular HC-SR04) emits a high-frequency sound wave from its transmitter. This sound wave travels through the air until it hits an object and bounces back to the sensor's receiver. The Arduino then measures the time it takes for the echo to return, calculates the distance to the object based on the speed of sound, and can trigger actions accordingly.
+
+Common Features:
+
+Range: Typically between 2 cm and 400 cm
+
+Accuracy: Often within a few millimeters
+
+Working Voltage: Usually 5V, compatible with most Arduino boards
+
+Basic Arduino Setup: You connect the sensor’s four pins—VCC, Trig, Echo, and GND—to the Arduino. Using a simple sketch (Arduino code), you instruct the Trig pin to send a pulse and measure the time it takes for the Echo pin to receive it back. From this, the Arduino calculates the distance.
+
+Popular Uses:
+
+Obstacle detection in robotics
+
+Automated parking systems
+
+Liquid level measurement
+
+Smart home motion detection
